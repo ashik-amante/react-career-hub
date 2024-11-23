@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     const link= <>
         <li><NavLink to="/" > Home</NavLink></li>
-        <li><NavLink to="/statistic" > Statistics</NavLink></li>
+        {/* <li><NavLink to="/statistic" > Statistics</NavLink></li> */}
         <li><NavLink to="/jobs" > Applied Jobs</NavLink></li>
         <li><NavLink to="/blogs" > Blogs</NavLink></li>
        

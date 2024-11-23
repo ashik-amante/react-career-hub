@@ -23,7 +23,7 @@ const Featured = () => {
                 </div>
             </div>
             <div className='flex items-center justify-center mt-10'>
-                <div className={dataLength === jobs.length && ' hidden'}>
+                <div className={dataLength === jobs.length ? 'hidden':undefined}>
                     <button onClick={() => setDatalength(jobs.length)} className="btn btn-primary px-5 py-2 rounded-md text-lg text-white  bg-gradient-to-r from-[#7E90FE] to-[#9873FF]">Show All</button>
                 </div>
             </div>
